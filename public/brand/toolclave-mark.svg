@@ -1,0 +1,15 @@
+<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Export / Toolclave / Mark Primary">
+<g id="Frame">
+<path id="Vector" d="M35 220H215" stroke="#17251F" stroke-width="8" stroke-linecap="square"/>
+<path id="Vector_2" d="M47.5 220V97.5C47.5 50 81.25 25 125 25C168.75 25 202.5 50 202.5 97.5V220" stroke="#17251F" stroke-width="8" stroke-linecap="round"/>
+<path id="Vector_3" d="M90 75H72.5C63.75 75 60 80 60 88.75V108.75C60 118.75 66.25 125 76.25 125H97.5" stroke="#17251F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M152.5 125H170C182.5 125 190 132.5 190 145V168.75C190 178.75 183.75 185 172.5 185H145" stroke="#17251F" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M125 145V185" stroke="#17251F" stroke-width="8" stroke-linecap="round"/>
+<path id="Vector_6" d="M90 90C98.2843 90 105 83.2843 105 75C105 66.7157 98.2843 60 90 60C81.7157 60 75 66.7157 75 75C75 83.2843 81.7157 90 90 90Z" fill="#B7D85C" stroke="#17251F" stroke-width="7"/>
+<path id="Vector_7" d="M125 147.5C137.426 147.5 147.5 137.426 147.5 125C147.5 112.574 137.426 102.5 125 102.5C112.574 102.5 102.5 112.574 102.5 125C102.5 137.426 112.574 147.5 125 147.5Z" fill="#FFF9EF" stroke="#17251F" stroke-width="7"/>
+<path id="Vector_8" d="M125 135C130.523 135 135 130.523 135 125C135 119.477 130.523 115 125 115C119.477 115 115 119.477 115 125C115 130.523 119.477 135 125 135Z" fill="#B7D85C"/>
+<path id="Vector_9" d="M125 200C133.284 200 140 193.284 140 185C140 176.716 133.284 170 125 170C116.716 170 110 176.716 110 185C110 193.284 116.716 200 125 200Z" fill="#B7D85C" stroke="#17251F" stroke-width="7"/>
+</g>
+</g>
+</svg>

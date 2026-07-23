@@ -1,0 +1,16 @@
+<svg width="250" height="250" viewBox="0 0 250 250" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g id="Export / Toolclave / Favicon">
+<rect width="250" height="250" rx="40" fill="#17251F"/>
+<g id="Frame">
+<path id="Vector" d="M53 201H197" stroke="white" stroke-width="8" stroke-linecap="square"/>
+<path id="Vector_2" d="M63 201V103C63 65 90 45 125 45C160 45 187 65 187 103V201" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<path id="Vector_3" d="M97 85H83C76 85 73 89 73 96V112C73 120 78 125 86 125H103" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_4" d="M147 125H161C171 125 177 131 177 141V160C177 168 172 173 163 173H141" stroke="white" stroke-width="8" stroke-linecap="round" stroke-linejoin="round"/>
+<path id="Vector_5" d="M125 141V173" stroke="white" stroke-width="8" stroke-linecap="round"/>
+<path id="Vector_6" d="M97 97C103.627 97 109 91.6274 109 85C109 78.3726 103.627 73 97 73C90.3726 73 85 78.3726 85 85C85 91.6274 90.3726 97 97 97Z" fill="#B7D85C" stroke="white" stroke-width="7"/>
+<path id="Vector_7" d="M125 143C134.941 143 143 134.941 143 125C143 115.059 134.941 107 125 107C115.059 107 107 115.059 107 125C107 134.941 115.059 143 125 143Z" fill="#17251F" stroke="white" stroke-width="7"/>
+<path id="Vector_8" d="M125 133C129.418 133 133 129.418 133 125C133 120.582 129.418 117 125 117C120.582 117 117 120.582 117 125C117 129.418 120.582 133 125 133Z" fill="#B7D85C"/>
+<path id="Vector_9" d="M125 185C131.627 185 137 179.627 137 173C137 166.373 131.627 161 125 161C118.373 161 113 166.373 113 173C113 179.627 118.373 185 125 185Z" fill="#B7D85C" stroke="white" stroke-width="7"/>
+</g>
+</g>
+</svg>

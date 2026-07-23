@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Toolclave visual QA comparison</title>
+    <style>
+      * { box-sizing: border-box; }
+      body { margin: 0; padding: 24px; background: #17251f; color: #fff9ef; font: 14px system-ui; }
+      h1 { margin: 0 0 24px; font-size: 22px; }
+      section { margin-bottom: 32px; }
+      h2 { margin: 0 0 10px; font-size: 14px; font-weight: 500; }
+      .pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; align-items: start; }
+      figure { margin: 0; padding: 8px; background: #fff9ef; color: #17251f; }
+      figcaption { padding: 4px 2px 10px; font-size: 11px; text-transform: uppercase; }
+      .viewport {
+        width: 100%;
+        aspect-ratio: 16 / 9;
+        overflow: hidden;
+        border: 1px solid #d8d2c9;
+        background: #fff9ef;
+      }
+      img { display: block; width: 100%; height: 100%; object-fit: cover; object-position: top; }
+    </style>
+  </head>
+  <body>
+    <h1>Toolclave source / implementation comparison</h1>
+    <section>
+      <h2>Homepage</h2>
+      <div class="pair">
+        <figure><figcaption>Approved source</figcaption><div class="viewport"><img src="./homepage-source.png" alt="" /></div></figure>
+        <figure><figcaption>Browser implementation</figcaption><div class="viewport"><img src="./homepage-implementation-1280x720.png" alt="" /></div></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Registry</h2>
+      <div class="pair">
+        <figure><figcaption>Approved source</figcaption><div class="viewport"><img src="./registry-source.png" alt="" /></div></figure>
+        <figure><figcaption>Browser implementation</figcaption><div class="viewport"><img src="./registry-implementation-1280x720.png" alt="" /></div></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Security</h2>
+      <div class="pair">
+        <figure><figcaption>Approved source</figcaption><div class="viewport"><img src="./security-source.png" alt="" /></div></figure>
+        <figure><figcaption>Browser implementation</figcaption><div class="viewport"><img src="./security-implementation-1280x720.png" alt="" /></div></figure>
+      </div>
+    </section>
+    <section>
+      <h2>Pricing</h2>
+      <div class="pair">
+        <figure><figcaption>Approved source</figcaption><div class="viewport"><img src="./pricing-source.png" alt="" /></div></figure>
+        <figure><figcaption>Browser implementation</figcaption><div class="viewport"><img src="./pricing-implementation-1280x720.png" alt="" /></div></figure>
+      </div>
+    </section>
+  </body>
+</html>
