@@ -8,12 +8,12 @@ const ANNOUNCEMENT_URL = "https://tiphub-prototype-review.vercel.app/companies/t
 const COMPANY_URL = "https://www.toolclave.com";
 const CANONICAL_URL = `${COMPANY_URL}/news/tiphub-allocation`;
 const META_TITLE = "Toolclave joins the TipHub portfolio";
-const META_DESCRIPTION = "TipHub announces a $600K portfolio allocation to Toolclave, supporting its work across AI agent infrastructure.";
+const META_DESCRIPTION = "TipHub announces a $500K portfolio allocation to Toolclave, supporting its work across AI agent infrastructure.";
 
 const facts = [
   ["Company", "Toolclave"],
   ["Sector", "AI agent infrastructure"],
-  ["TipHub-announced allocation", "$600K"],
+  ["TipHub-announced allocation", "$500K"],
   ["Stage", "Early stage"],
   ["Scope", "Global"],
   ["Portfolio", "TipHub"],
@@ -77,8 +77,8 @@ export function TipHubAnnouncementPage() {
           <ChapterLabel number="01" label="Portfolio announcement" tone="oxblood" />
           <div className="news-route-copy">
             <span className="eyebrow">Portfolio announcement</span>
-            <h1>TipHub announces a <em>$600K allocation</em> to Toolclave.</h1>
-            <p>Toolclave is joining the TipHub portfolio following a $600K TipHub-announced allocation. The partnership supports the company’s work across AI agent infrastructure.</p>
+            <h1>TipHub announces a <em>$500K allocation</em> to Toolclave.</h1>
+            <p>Toolclave is joining the TipHub portfolio following a $500K TipHub-announced allocation. The partnership supports the company’s work across AI agent infrastructure.</p>
             <div className="hero-actions">
               <a className="button button-oxblood" href={ANNOUNCEMENT_URL} target="_blank" rel="noreferrer">
                 Visit TipHub announcement <ExternalLink size={14} />
@@ -89,7 +89,7 @@ export function TipHubAnnouncementPage() {
 
           <aside className="news-allocation-dossier page-reveal" aria-label="TipHub-announced allocation summary">
             <span>TipHub-announced<br />portfolio allocation</span>
-            <strong>$600K</strong>
+            <strong>$500K</strong>
             <p>AI agent infrastructure</p>
             <div>
               <Landmark size={18} />

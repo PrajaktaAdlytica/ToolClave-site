@@ -297,16 +297,16 @@ export function HomePage({ onDemo }) {
       <section id="tiphub-announcement" className="home-announcement-section" aria-labelledby="tiphub-announcement-title">
         <div className="home-announcement-copy scroll-reveal">
           <span className="eyebrow">Portfolio announcement</span>
-          <h2 id="tiphub-announcement-title">TipHub announces a <em>$600K allocation</em> to Toolclave.</h2>
+          <h2 id="tiphub-announcement-title">TipHub announces a <em>$500K allocation</em> to Toolclave.</h2>
           <p>Toolclave is joining the TipHub portfolio as it builds AI agent infrastructure.</p>
           <div className="home-announcement-actions">
             <Link className="button button-oxblood" to="/news/tiphub-allocation">Read the announcement <ArrowRight size={14} /></Link>
             <a className="text-link" href="https://tiphub-prototype-review.vercel.app/companies/toolclave" target="_blank" rel="noreferrer">Visit TipHub <ExternalLink size={13} /></a>
           </div>
         </div>
-        <aside className="home-announcement-allocation scroll-reveal" aria-label="$600K TipHub-announced portfolio allocation">
+        <aside className="home-announcement-allocation scroll-reveal" aria-label="$500K TipHub-announced portfolio allocation">
           <span>TipHub-announced<br />portfolio allocation</span>
-          <strong>$600K</strong>
+          <strong>$500K</strong>
           <small>AI agent infrastructure / Global</small>
         </aside>
       </section>
