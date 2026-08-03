@@ -11,6 +11,7 @@ import {
   CircleCheck,
   Eye,
   FileWarning,
+  ExternalLink,
   LockKeyhole,
   Network,
   Quote,
@@ -225,7 +226,7 @@ export function HomePage({ onDemo }) {
           y: -130,
           ease: "none",
           scrollTrigger: {
-            trigger: ".home-page",
+            trigger: rootRef.current,
             start: "top top",
             end: "bottom bottom",
             scrub: 0.8,
@@ -291,6 +292,23 @@ export function HomePage({ onDemo }) {
           <ProductStripItem icon={<Network size={18} />} number="02" title="Toolclave Runtime" text="Policy enforcement for every call" href="/runtime" />
           <ProductStripItem icon={<Eye size={18} />} number="03" title="Toolclave Observe" text="End-to-end traces and audit logs" href="/observe" />
         </div>
+      </section>
+
+      <section id="tiphub-announcement" className="home-announcement-section" aria-labelledby="tiphub-announcement-title">
+        <div className="home-announcement-copy scroll-reveal">
+          <span className="eyebrow">Portfolio announcement</span>
+          <h2 id="tiphub-announcement-title">TipHub announces a <em>$600K allocation</em> to Toolclave.</h2>
+          <p>Toolclave is joining the TipHub portfolio as it builds AI agent infrastructure.</p>
+          <div className="home-announcement-actions">
+            <Link className="button button-oxblood" to="/news/tiphub-allocation">Read the announcement <ArrowRight size={14} /></Link>
+            <a className="text-link" href="https://tiphub-prototype-review.vercel.app/companies/toolclave" target="_blank" rel="noreferrer">Visit TipHub <ExternalLink size={13} /></a>
+          </div>
+        </div>
+        <aside className="home-announcement-allocation scroll-reveal" aria-label="$600K TipHub-announced portfolio allocation">
+          <span>TipHub-announced<br />portfolio allocation</span>
+          <strong>$600K</strong>
+          <small>AI agent infrastructure / Global</small>
+        </aside>
       </section>
 
       <section id="problem" className="story-section problem-scene">

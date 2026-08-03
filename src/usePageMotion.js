@@ -11,7 +11,7 @@ export function usePageMotion(rootRef) {
     const context = gsap.context(() => {
       const root = rootRef.current;
       const heroTargets = root?.querySelectorAll(
-        ".page-hero-copy > *, .expansion-hero-copy > *, .solutions-route-copy > *, .company-route-copy > *, .contact-route-copy > *, .docs-route-copy > *, .demo-route-copy > *, .signin-context > *",
+        ".page-hero-copy > *, .expansion-hero-copy > *, .solutions-route-copy > *, .company-route-copy > *, .contact-route-copy > *, .docs-route-copy > *, .demo-route-copy > *, .signin-context > *, .news-route-copy > *",
       ) ?? [];
       if (heroTargets.length) {
         gsap.from(heroTargets, {
@@ -63,6 +63,7 @@ export function usePageMotion(rootRef) {
         ".company-stage-grid",
         ".demo-expectation-grid",
         ".signin-trust-band",
+        ".news-facts-grid",
       ];
       staggerGroups.forEach((selector) => {
         const group = root?.querySelector(selector);
@@ -79,7 +80,7 @@ export function usePageMotion(rootRef) {
       });
 
       const heroStage = root?.querySelector(
-        ".runtime-hero-stage, .observe-hero-stage, .solution-selector, .code-window, .company-manifesto, .contact-form-wrap, .demo-form-stage, .signin-form-stage",
+        ".runtime-hero-stage, .observe-hero-stage, .solution-selector, .code-window, .company-manifesto, .contact-form-wrap, .demo-form-stage, .signin-form-stage, .news-allocation-dossier",
       );
       if (heroStage && window.matchMedia("(min-width: 980px)").matches) {
         gsap.to(heroStage, {

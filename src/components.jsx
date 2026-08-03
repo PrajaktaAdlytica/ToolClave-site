@@ -17,6 +17,7 @@ import {
   Mail,
   Menu,
   Network,
+  Newspaper,
   PackageCheck,
   Search,
   ScanSearch,
@@ -47,6 +48,7 @@ const menuGroups = {
 
 const companyItems = [
   ["About", "/company", "Meet the team behind Toolclave", Building2],
+  ["News", "/news/tiphub-allocation", "Read the latest portfolio announcement", Newspaper],
   ["Trust center", "/security", "Review architecture and evidence", ShieldCheck],
   ["Careers", "/company#careers", "Help build agent infrastructure", Users],
 ];
@@ -199,6 +201,7 @@ export function Footer() {
         title="Company"
         links={[
           ["About", "/company"],
+          ["News", "/news/tiphub-allocation"],
           ["Pricing", "/pricing"],
           ["Contact", "/contact"],
         ]}

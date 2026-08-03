@@ -16,6 +16,7 @@ import { RuntimePage } from "./RuntimePage.jsx";
 import { SecurityPage } from "./SecurityPage.jsx";
 import { SignInPage } from "./SignInPage.jsx";
 import { SolutionsPage } from "./SolutionsPage.jsx";
+import { TipHubAnnouncementPage } from "./TipHubAnnouncementPage.jsx";
 
 export function App() {
   return (
@@ -67,6 +68,7 @@ function ToolclaveSite() {
         <Route path="/contact" element={<ContactPage />} />
         <Route path="/demo" element={<DemoPage />} />
         <Route path="/signin" element={<SignInPage />} />
+        <Route path="/news/tiphub-allocation" element={<TipHubAnnouncementPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />

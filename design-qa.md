@@ -4,6 +4,7 @@
 
 - Visual direction: `/Users/prajaktagaikwad/Downloads/Generated image 1 (14).png`
 - Cinematic entry specification: `/Users/prajaktagaikwad/.codex/attachments/a4b49bc6-c206-49e8-8864-4b4823f1c189/pasted-text.txt`
+- TipHub announcement source: `https://tiphub-prototype-review.vercel.app/companies/toolclave`
 - Approved implementation references:
   - `qa/homepage-source.png` - 633 x 1800
   - `qa/registry-source.png` - 1026 x 2400
@@ -39,6 +40,11 @@
   - `qa/cinematic-entry-812x814.jpg`
   - `qa/cinematic-entry-dark-812x814.jpg`
   - `qa/cinematic-to-platform-812x814.jpg`
+  - `qa/tiphub-source-1280x720.jpg`
+  - `qa/tiphub-home-announcement-1280x720.jpg`
+  - `qa/tiphub-home-announcement-390x844.jpg`
+  - `qa/tiphub-announcement-page-1280x720.jpg`
+  - `qa/tiphub-announcement-page-390x844.jpg`
 - Combined comparison page: `qa/compare.html`
 - Comparison captures:
   - `qa/comparison-homepage-final.png`
@@ -54,6 +60,9 @@ The approved full-page references and live route captures were normalized into m
 - Cinematic entry: passed. The new first viewport uses the supplied four looping video sources and transparent foreground asset, then adapts the glass control language, scene index, serif display typography, platform metrics, and conversion copy to Toolclave without replacing the approved homepage hero.
 - Cinematic entry scene states: passed. Crossfades preserve the framed foreground, the third bright landscape switches to the intended dark text treatment, and the lower evidence rail retains readable contrast over the darker foreground.
 - Cinematic-to-platform handoff: passed. “Enter the platform” lands the original homepage hero below the sticky header; its editorial copy and botanical product story animate when reached rather than before they enter the viewport.
+- Homepage TipHub announcement: passed. The paper-and-oxblood editorial chapter follows the existing product hero, keeps Toolclave as the primary brand, clearly labels the `$600K` figure as a TipHub-announced portfolio allocation, and preserves the existing botanical chapter rail.
+- TipHub announcement page: passed. The dedicated route carries the required allocation wording, context, facts, official links, disclosure, metadata, Open Graph fields, and canonical URL without unsupported funding, investor, founder, valuation, or customer claims.
+- TipHub responsive treatment: passed. The homepage announcement and dedicated article were inspected at 1280 x 720 and 390 x 844; both preserve hierarchy, readable line lengths, complete CTA labels, and contained allocation surfaces without announcement-level overflow.
 - Homepage problem chapter: passed. The blush diagnostic ledger, sticky editorial thesis, asymmetric row reveals, and unknown-to-observable transition extend the approved chapter system without introducing generic card styling.
 - Homepage proof chapter: passed. The mineral evidence stage, interactive persona rail, restrained large quote treatment, and explicit composite-perspective disclosure fit the approved palette and enterprise tone.
 - Homepage pricing chapter: passed. The three-tier ledger preserves the pricing-route hierarchy, pale matcha emphasis, fine-rule structure, and compact plan handoff.
@@ -105,6 +114,12 @@ The approved full-page references and live route captures were normalized into m
 - All four cinematic scene controls update the active video and `aria-pressed` state with a one-second transition lock.
 - Each supplied video reaches browser `readyState` 4, plays muted and inline, and the transparent foreground asset loads at its full intrinsic width.
 - Cinematic work-email submission routes to the standalone demo page and carries the entered synthetic address in the local query string.
+- Homepage `Read the announcement` routes to `/news/tiphub-allocation`.
+- The Company dropdown and Company footer column expose the new News destination without adding a new primary-navigation item.
+- The official TipHub link resolves to the supplied announcement URL with HTTP 200 and opens in a new tab with `noreferrer`.
+- The dedicated page resolves its exact headline, all six facts, two source links, and the financing disclosure through semantic heading, description-list, link, and complementary-region markup.
+- Route-specific title, description, Open Graph title/description/type/URL, and canonical metadata resolve correctly on direct navigation.
+- A fresh homepage-to-announcement route transition produces no browser warning or error entries.
 - “Enter the platform” resolves `#platform` with a 72 px sticky-header offset and leaves the original hero heading and product strip visible.
 - Header Sign In and Request Demo controls route to their standalone pages.
 - Request Demo accepts complete synthetic evaluation data and reaches `Your evaluation brief is ready.`
@@ -125,6 +140,7 @@ The approved full-page references and live route captures were normalized into m
 ## Engineering verification
 
 - `npm run build` - passed
+- `npm run build:sites` - passed
 - `npm run test:sites` - passed, 4/4 tests
 - Production bundle and Sites-compatible worker artifacts generated successfully.
 
