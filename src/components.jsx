@@ -48,7 +48,6 @@ const menuGroups = {
 
 const companyItems = [
   ["About", "/company", "Meet the team behind Toolclave", Building2],
-  ["News", "/news/tiphub-allocation", "Read the latest portfolio announcement", Newspaper],
   ["Trust center", "/security", "Review architecture and evidence", ShieldCheck],
   ["Careers", "/company#careers", "Help build agent infrastructure", Users],
 ];
@@ -135,6 +134,9 @@ export function Header() {
         </NavLink>
         <NavLink className="nav-link" to="/pricing">
           <BadgeDollarSign size={13} /> Pricing
+        </NavLink>
+        <NavLink className="nav-link" to="/news/tiphub-allocation">
+          <Newspaper size={13} /> News
         </NavLink>
         <NavMenu
           label="Company"
