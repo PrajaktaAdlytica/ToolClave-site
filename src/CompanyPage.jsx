@@ -19,7 +19,7 @@ export function CompanyPage({ onDemo }) {
       <section className="company-route-hero">
         <ChapterLabel number="01" label="Company" />
         <div className="company-route-copy page-reveal">
-          <span className="eyebrow">Poland / European Union</span>
+          <span className="eyebrow">Milan / Italy</span>
           <h1>Infrastructure for<br />agents that can<br /><em>change the world.</em></h1>
           <p>Toolclave is a product startup building the verified registry, governed runtime, and evidence layer for AI agents using external tools.</p>
           <div className="hero-actions">
@@ -30,7 +30,7 @@ export function CompanyPage({ onDemo }) {
         <div className="company-manifesto page-reveal">
           <span>Our position</span>
           <p>Agents become useful when they can act. They become operable when every action has an identity, a policy decision, and evidence.</p>
-          <div><MapPin size={18} /><strong>Built in Poland<br />for European and global teams</strong></div>
+          <div><MapPin size={18} /><strong>Corso Rose, 34<br />Milan, LOM 20152, Italy</strong></div>
         </div>
       </section>
 

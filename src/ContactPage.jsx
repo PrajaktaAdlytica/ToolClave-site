@@ -1,5 +1,5 @@
 import { useRef, useState } from "react";
-import { ArrowRight, Check, Mail, MapPin, MessagesSquare } from "lucide-react";
+import { ArrowRight, Check, Mail, MapPin, MessagesSquare, Phone } from "lucide-react";
 import { ChapterLabel } from "./components.jsx";
 import { usePageMotion } from "./usePageMotion.js";
 
@@ -18,7 +18,8 @@ export function ContactPage() {
           <p>Tell us what your agent can call today, where policy lives, and what evidence your team needs before production.</p>
           <div className="contact-meta">
             <div><Mail size={17} /><span>hello@toolclave.com</span></div>
-            <div><MapPin size={17} /><span>Poland / European Union</span></div>
+            <div><MapPin size={17} /><span>Corso Rose, 34, Milan, LOM 20152, Italy</span></div>
+            <div><Phone size={17} /><span>+39 065 775 4755</span></div>
             <div><MessagesSquare size={17} /><span>Architecture and product evaluations</span></div>
           </div>
         </div>
