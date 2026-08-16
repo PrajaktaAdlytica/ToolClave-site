@@ -169,6 +169,12 @@ export function Footer() {
         <img src="/brand/toolclave-mark.svg" alt="" />
         <strong>Toolclave</strong>
         <p>Verified tool infrastructure for production AI agents.</p>
+        <address className="footer-address">
+          Corso Rose, 34<br />
+          Milan, LOM 20152<br />
+          Italy<br />
+          <a href="tel:+390657754755">+39 065 775 4755</a>
+        </address>
         <div className="footer-socials" aria-label="Toolclave social links">
           <a href="https://www.linkedin.com" target="_blank" rel="noreferrer" aria-label="Toolclave on LinkedIn"><FaLinkedinIn size={15} /></a>
           <a href="https://github.com" target="_blank" rel="noreferrer" aria-label="Toolclave on GitHub"><FaGithub size={16} /></a>
