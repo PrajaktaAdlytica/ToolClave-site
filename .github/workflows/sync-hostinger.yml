@@ -20,9 +20,13 @@ jobs:
 
       - name: Push to Hostinger mirror
         env:
-          SYNC_TOKEN: ${{ secrets.HOSTINGER_SYNC_TOKEN }}
+          SYNC_SSH_KEY: ${{ secrets.HOSTINGER_SYNC_SSH_KEY }}
         run: |
+          mkdir -p ~/.ssh
+          printf '%s\n' "$SYNC_SSH_KEY" > ~/.ssh/id_ed25519
+          chmod 600 ~/.ssh/id_ed25519
+          ssh-keyscan github.com >> ~/.ssh/known_hosts
           git config user.name "Toolclave deployment sync"
           git config user.email "actions@github.com"
-          git remote add hostinger "https://PrajaktaAdlytica:${SYNC_TOKEN}@github.com/PrajaktaAdlytica/toolclave-hostinger.git"
+          git remote add hostinger "git@github.com:PrajaktaAdlytica/toolclave-hostinger.git"
           git push hostinger HEAD:main --force
